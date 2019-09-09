@@ -8,7 +8,8 @@ def square_array(array)
 end
 
 def square_array_with_collect(array)
-  array.collect {|element| element * element}
+  squared = array.collect {|element| element * element}
+  squared
 end
 
 numbers = [1,2,3]
