@@ -9,7 +9,7 @@ end
 
 def square_array_with_collect(array)
   squared = array.collect {|element| element * element}
-  puts squared
+  p squared
 end
 
 numbers = [1,2,3]
