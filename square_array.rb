@@ -8,9 +8,7 @@ def square_array(array)
 end
 
 def square_array_with_collect(array)
-  array.collect do |element|
-    element *= element
-  end
+  array.collect {|element| 
 end
 
 numbers = [1,2,3]
