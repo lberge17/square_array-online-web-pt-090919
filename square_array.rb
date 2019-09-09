@@ -9,7 +9,7 @@ end
 
 def square_array_with_collect(array)
   array.collect do |element|
-    element * element
+    element *= element
   end
 end
 
