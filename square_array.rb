@@ -13,4 +13,7 @@ def square_array_with_collect(array)
   end
 end
 
-square_array_with_collect
+numbers = [1,2,3]
+
+square_array_with_collect(numbers)
+
