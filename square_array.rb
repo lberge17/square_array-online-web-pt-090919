@@ -12,3 +12,5 @@ def square_array_with_collect(array)
     element *= element
   end
 end
+
+square_array_with_collect
