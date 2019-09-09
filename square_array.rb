@@ -15,8 +15,8 @@ end
 
 numbers = [1,2,3]
 
-puts square_array_with_collect(numbers)
+square_array_with_collect(numbers)
 
 new_numbers = [9,10,16,25]
 
-square_array_with_collect(new_numbers)
+puts square_array_with_collect(new_numbers)
