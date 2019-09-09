@@ -11,6 +11,7 @@ def square_array_with_collect(array)
   array.collect do |element|
     element *= element
   end
+  array
 end
 
 numbers = [1,2,3]
@@ -19,4 +20,4 @@ square_array_with_collect(numbers)
 
 new_numbers = [9,10,16,25]
 
-puts square_array_with_collect(new_numbers)
+square_array_with_collect(new_numbers)
