@@ -11,7 +11,7 @@ def square_array_with_collect(array)
   array.collect do |element|
     element *= element
   end
-  array
+  return array
 end
 
 numbers = [1,2,3]
